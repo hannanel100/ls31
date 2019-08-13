@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #a52a2a;
+}
+h1{
+    color: #FFFEBA;
+}
+.city, .dropzone{
+    display: inline-block;
+    border: black solid 1px;
+    background-color: #FFFEBA;
+    cursor: pointer;
+    text-align: center;
+}
+
+.city{
+    margin: 15px;
+    width: 75px;
+    height: 25px;
+}
+.dropzone{
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+}
+.hold{
+    border: solid #ccc 2px;
+}
+.invisible{
+    display: none;
+}
